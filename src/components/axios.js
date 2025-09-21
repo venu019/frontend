@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:9001/api", // adjust as needed
+  baseURL: "https://backend-m4eo.onrender.com", // adjust as needed
   auth: { username: "admin", password: "admin123" }
 });
 
